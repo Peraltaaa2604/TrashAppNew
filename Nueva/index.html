@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trash-App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <div class="modal-dialog" align="center">
+  <div class="col-sm-8">
+    <div class="modal-content">
+
+        <h2>TrashApp</h2>
+        <form action="User.php" class="was-validated" method="POST">
+          <div class="form-group">
+            <label for="correo">Correo:</label>
+            <input type="correo" class="form-control" align="left" id="correo" placeholder="Ingresa un numero (limite inferior)" name="correo" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Por favor ingresa un Correo.</div>
+          </div>
+          <div class="form-group">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" class="form-control" id="contrasena" placeholder="Ingresa un numero (limite inferior)" name="contrasena" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Por favor ingresa una Contraseña.</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Iniciar</button>
+          <td><a class="btn btn-secondary" href="R_cliente.html">Registrar</a></td>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
